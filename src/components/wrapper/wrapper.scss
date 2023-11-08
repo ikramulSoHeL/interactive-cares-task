@@ -1,0 +1,22 @@
+@import "../../styles/foundations/mixins.scss";
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .wrapper__child {
+    width: 1480px;
+    padding: 80px;
+
+    @media screen and (max-width: 1480px) {
+      width: 100%;
+      padding: 60px;
+    }
+
+    @include miniPortraitTablet {
+      padding: 20px;
+    }
+  }
+}

@@ -1,0 +1,89 @@
+@import "../../../styles/foundations/mixins.scss";
+
+.aboutUs__contsiner {
+  width: 100%;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 0.8fr;
+  gap: 100px;
+
+  @include smallDesktop {
+    gap: 50px;
+  }
+
+  @include tablet {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+  .aboutUs__imgs {
+    height: 600px;
+    position: relative;
+
+    @include tablet {
+      max-height: 500px;
+    }
+
+    .aboutUs__img1 {
+      position: absolute;
+      top: 10%;
+      left: 10%;
+
+      width: 55%;
+      height: 70%;
+      max-height: 500px;
+      object-fit: cover;
+      transform: rotate(-20deg);
+
+      @include smallDesktop {
+        max-height: 350px;
+      }
+
+      @include tablet {
+        max-height: 300px;
+      }
+    }
+
+    .aboutUs__img2 {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+
+      width: 60%;
+      height: 80%;
+      max-height: 500px;
+      object-fit: cover;
+
+      @include smallDesktop {
+        max-height: 450px;
+      }
+
+      @include tablet {
+        max-height: 400px;
+      }
+    }
+  }
+
+  .aboutUs__details {
+    display: flex;
+    flex-direction: column;
+
+    .aboutUsdetails__nameTitle {
+      font-size: 25px;
+      font-weight: 700;
+      font-family: "Dancing Script", cursive;
+    }
+
+    .aboutUsdetails__title {
+      font-size: 40px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+
+    .aboutUsdetails__subText {
+      font-size: 20px;
+      font-weight: 400;
+      color: rgb(24, 24, 24);
+    }
+  }
+}

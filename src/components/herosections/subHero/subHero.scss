@@ -1,0 +1,50 @@
+@import "../../../styles/foundations/mixins.scss";
+
+.subHero {
+  width: 100%;
+  height: 400px;
+  position: relative;
+
+  .subHeroImg {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(23, 34, 53);
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      opacity: 0.4;
+    }
+  }
+
+  .subHero__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    .subHero__title {
+      font-size: 55px;
+      font-weight: 700;
+      color: white;
+      text-align: center;
+    }
+
+    .subHero__subText {
+      font-size: 20px;
+      font-weight: 400;
+      color: white;
+      text-align: center;
+
+      span {
+        color: orange;
+      }
+    }
+  }
+}
