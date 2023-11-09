@@ -1,5 +1,6 @@
 import React from "react";
 import "./teamCard.scss";
+import { Link } from "react-router-dom";
 
 const TeamCard = ({ img, name, position }) => {
   return (
@@ -14,19 +15,19 @@ const TeamCard = ({ img, name, position }) => {
 
       <ul className="social">
         <li>
-          <a href="#">
+          <Link to="" className="socialLink">
             <i className="fab fa-facebook-f" />
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="#">
+          <Link to="" className="socialLink">
             <i className="fab fa-instagram" />
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="#">
+          <Link to="" className="socialLink">
             <i className="fab fa-pinterest-p" />
-          </a>
+          </Link>
         </li>
       </ul>
     </div>

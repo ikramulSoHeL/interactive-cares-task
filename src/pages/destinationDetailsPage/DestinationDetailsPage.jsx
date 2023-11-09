@@ -4,6 +4,7 @@ import Layout from "../../components/layout/Layout";
 import SubHero from "../../components/herosections/subHero/SubHero";
 import DestinationGalleryInfo from "./destinationGalleryInfo/DestinationGalleryInfo";
 import TourDetails from "./tourDetails/TourDetails";
+import TourOverView from "./tourOverView/TourOverView";
 
 const DestinationDetailsPage = () => {
   return (
@@ -17,8 +18,9 @@ const DestinationDetailsPage = () => {
         locationPath={"Urope"}
       />
 
-      <DestinationGalleryInfo />
       <TourDetails />
+      <DestinationGalleryInfo />
+      <TourOverView />
     </Layout>
   );
 };

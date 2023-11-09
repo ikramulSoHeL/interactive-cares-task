@@ -1,5 +1,16 @@
 import React from "react";
 import "./tourDetails.scss";
+
+// react icons
+import { BiTimeFive } from "react-icons/bi";
+import { IoIosPeople } from "react-icons/io";
+import { FaWifi } from "react-icons/fa";
+import { BsCalendar2DateFill, BsTelephone } from "react-icons/bs";
+import { AiOutlineUserSwitch } from "react-icons/ai";
+import { GoLocation } from "react-icons/go";
+import { BsCalendar2Date } from "react-icons/bs";
+import { MdOutlineEmail } from "react-icons/md";
+
 import Wrapper from "../../../components/wrapper/Wrapper";
 
 const TourDetails = () => {
@@ -8,39 +19,44 @@ const TourDetails = () => {
       <div className="tourDetails">
         <div className="tourAbout">
           <div className="tourHeader__rating">
-            <h3>Molokini and Turtle Arches Snorkeling Trip</h3>
-            <span>Ratting</span>
+            <h3 className="tourHeader">
+              Molokini and Turtle Arches Snorkeling Trip
+            </h3>
+            <span className="tourRating">
+              <i className="fas fa-star"></i>
+              4.9 (30+ Ratting)
+            </span>
           </div>
 
           <div className="tour__sortInfos">
             <div className="tour__sortInfo">
-              <i className="fas fa-map-marker-alt"></i>
+              <BiTimeFive className="tour__sortInfoIcon" />
               <span>4 Hours</span>
             </div>
 
             <div className="tour__sortInfo">
-              <i className="fas fa-map-marker-alt"></i>
-              <span>4 Hours</span>
+              <IoIosPeople className="tour__sortInfoIcon" />
+              <span>Max People: 30</span>
             </div>
 
             <div className="tour__sortInfo">
-              <i className="fas fa-map-marker-alt"></i>
-              <span>4 Hours</span>
+              <FaWifi className="tour__sortInfoIcon" />
+              <span>Available</span>
             </div>
 
             <div className="tour__sortInfo">
-              <i className="fas fa-map-marker-alt"></i>
-              <span>4 Hours</span>
+              <BsCalendar2DateFill className="tour__sortInfoIcon" />
+              <span>18 Jsn - 28Jan</span>
             </div>
 
             <div className="tour__sortInfo">
-              <i className="fas fa-map-marker-alt"></i>
-              <span>4 Hours</span>
+              <AiOutlineUserSwitch className="tour__sortInfoIcon" />
+              <span>Min Age: 12</span>
             </div>
 
             <div className="tour__sortInfo">
-              <i className="fas fa-map-marker-alt"></i>
-              <span>4 Hours</span>
+              <GoLocation className="tour__sortInfoIcon" />
+              <span>Airport</span>
             </div>
           </div>
 
@@ -65,7 +81,45 @@ const TourDetails = () => {
           </div>
         </div>
 
-        <div className="tourBooking"></div>
+        <div className="tourBooking">
+          <form action="" className="bookingForm">
+            <div className="pricing">
+              <span className="priceText">Price</span>
+              <span className="price">$ 700</span>
+            </div>
+
+            <div className="pricingForm__inputs">
+              <div className="pricingForm__inputGroup">
+                <BsCalendar2Date />
+                <input type="date" />
+              </div>
+
+              <div className="pricingForm__inputGroup">
+                <IoIosPeople />
+                <input type="number" placeholder="Total Person" />
+              </div>
+
+              <div className="pricingForm__inputGroup">
+                <AiOutlineUserSwitch />
+                <input type="text" placeholder="Username" />
+              </div>
+
+              <div className="pricingForm__inputGroup">
+                <MdOutlineEmail />
+                <input type="text" placeholder="Email" />
+              </div>
+
+              <div className="pricingForm__inputGroup">
+                <BsTelephone />
+                <input type="number" placeholder="Phone" />
+              </div>
+
+              <div className="bookingFrom__btn">
+                <button>Proceed Booking</button>
+              </div>
+            </div>
+          </form>
+        </div>
       </div>
     </Wrapper>
   );

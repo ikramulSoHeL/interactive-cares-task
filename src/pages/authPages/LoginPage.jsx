@@ -25,10 +25,6 @@ const LoginPage = () => {
             <span className="show">SHOW</span>
           </div>
 
-          {/* <div className="pass">
-            <a href="#">Forgot Password?</a>
-          </div> */}
-
           <div className="field space">
             <input type="submit" defaultValue="LOGIN" />
           </div>

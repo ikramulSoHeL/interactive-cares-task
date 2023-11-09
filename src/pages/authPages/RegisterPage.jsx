@@ -42,7 +42,7 @@ const RegisterPage = () => {
           </div>
 
           <div className="pass">
-            <a href="#">Forgot Password?</a>
+            <span>Forgot Password?</span>
           </div>
 
           <div className="field space">

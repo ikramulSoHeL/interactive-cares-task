@@ -16,12 +16,12 @@
     .box-desc {
       color: #fff;
     }
-    .social li a {
+    .social li .socialLink {
       background: #fff;
       background-image: none;
       color: #000;
     }
-    .social li a:hover {
+    .social li .socialLink:hover {
       background: #1d1d1d;
       color: #fff;
     }
@@ -61,7 +61,7 @@
     padding: 0 5px;
   }
 
-  .social li a {
+  .social li .socialLink {
     position: relative;
     width: 36px;
     height: 36px;

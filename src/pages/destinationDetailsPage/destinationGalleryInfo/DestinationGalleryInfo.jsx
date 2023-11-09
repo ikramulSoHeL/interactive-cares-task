@@ -10,7 +10,7 @@ const DestinationGalleryInfo = () => {
   const [openVideoPlayerModal, setOpenVideoPlayerModal] = useState(false);
 
   return (
-    <Wrapper>
+    <Wrapper bg={"#dffbf9"}>
       <div className="destinationGalleryInfo">
         <div className="gallery__images">
           <div className="subImages">
