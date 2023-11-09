@@ -35,7 +35,7 @@
         align-items: center;
         gap: 30px;
 
-        @include mediumTablet {
+        @include extraLargeTablet {
           display: none;
         }
 

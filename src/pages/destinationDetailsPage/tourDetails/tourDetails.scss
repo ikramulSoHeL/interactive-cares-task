@@ -1,0 +1,68 @@
+@import "../../../styles/foundations/mixins.scss";
+
+.tourDetails {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 0.4fr;
+  gap: 50px;
+
+  .tourAbout {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .tourHeader__rating {
+    }
+
+    .tour__sortInfos {
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+
+      padding-bottom: 20px;
+      border-bottom: 1px solid gray;
+
+      .tour__sortInfo {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        i {
+          color: orange;
+          font-size: 25px;
+        }
+
+        span {
+          font-size: 18px;
+          font-weight: 600;
+          color: gray;
+        }
+      }
+    }
+
+    .tour__text {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      padding: 30px 0;
+
+      span {
+        font-size: 18px;
+        font-weight: 500;
+        color: gray;
+        // letter-spacing: 0.5px;
+      }
+    }
+  }
+
+  .tourBooking {
+    display: flex;
+    flex-direction: column;
+
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+  }
+}

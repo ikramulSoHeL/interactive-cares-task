@@ -1,0 +1,121 @@
+@import "../../styles/foundations/mixins.scss";
+
+.footer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+
+  .footer__info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .footer__headerLogo {
+      font-size: 45px;
+      font-weight: 600;
+      font-family: "DM Serif Display", serif;
+      color: white;
+
+      span {
+        color: orange;
+      }
+    }
+
+    .footer__desc {
+      font-size: 18px;
+      font-weight: 400;
+      color: lightgray;
+      line-height: 1.5;
+    }
+
+    .footer__infoSocial {
+      display: flex;
+      gap: 8px;
+
+      i {
+        font-size: 18px;
+        color: lightgray;
+        transition: all 0.3s ease-in-out;
+
+        padding: 10px;
+        border-radius: 50%;
+        border: 1px solid lightgray;
+        background-color: transparent;
+        cursor: pointer;
+
+        &:hover {
+          color: white;
+          background-color: orange;
+        }
+      }
+    }
+  }
+
+  .footer__services {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+    .footer__header {
+      font-size: 35px;
+      font-weight: 600;
+      color: white;
+    }
+
+    .footer__servicesContainer {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      span {
+        font-size: 18px;
+        font-weight: 400;
+        color: lightgray;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+
+        &:hover {
+          color: orange;
+          transform: translateX(10px);
+          transition: all 0.3s ease-in-out;
+        }
+      }
+    }
+  }
+
+  .footer__contact {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+    .footer__header {
+      font-size: 35px;
+      font-weight: 600;
+      color: white;
+    }
+
+    .footer__contactContainer {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      .footer__contactItem {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        i {
+          font-size: 18px;
+          color: lightgray;
+        }
+
+        span {
+          font-size: 18px;
+          font-weight: 400;
+          color: lightgray;
+        }
+      }
+    }
+  }
+}

@@ -6,6 +6,13 @@
   align-items: center;
   grid-template-columns: repeat(2, 1fr);
   gap: 40px;
+  transition: all 0.3s ease-in-out;
+
+  @include mediumTablet {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    transition: all 0.3s ease-in-out;
+  }
 
   .testimonials__imgs {
     padding: 50px 0;
@@ -20,6 +27,12 @@
       max-width: 450px;
       height: 100px;
       transform: rotate(10deg);
+
+      @include miniPortraitTablet {
+        width: 150px;
+        max-width: 350px;
+        height: 80px;
+      }
     }
 
     .testimonials__img2 {
@@ -28,6 +41,12 @@
       height: 200px;
       transform: rotate(-10deg);
       z-index: 1;
+
+      @include miniPortraitTablet {
+        width: 250px;
+        max-width: 350px;
+        height: 150px;
+      }
     }
 
     .testimonials__img3 {
@@ -35,6 +54,12 @@
       max-width: 350px;
       height: 100px;
       transform: rotate(10deg);
+
+      @include miniPortraitTablet {
+        width: 150px;
+        max-width: 250px;
+        height: 80px;
+      }
     }
   }
 
