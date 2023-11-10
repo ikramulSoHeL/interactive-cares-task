@@ -5,7 +5,7 @@ const destinationData = [
     country: "Indonesia",
     desc: "Wonder of the west coast & Kimberley",
     image:
-      "https://images.pexels.com/photos/9402787/pexels-photo-9402787.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/14345826/pexels-photo-14345826.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     rating: 4.5,
     review: 20,
     price: 500,
@@ -30,7 +30,7 @@ const destinationData = [
     country: "Indonesia",
     desc: "Wonder of the west coast & Kimberley",
     image:
-      "https://images.pexels.com/photos/9402787/pexels-photo-9402787.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/11849234/pexels-photo-11849234.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     rating: 4.5,
     review: 20,
     price: 500,
@@ -47,7 +47,7 @@ const destinationData = [
     country: "Indonesia",
     desc: "Wonder of the west coast & Kimberley",
     image:
-      "https://images.pexels.com/photos/9402787/pexels-photo-9402787.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/1005253/pexels-photo-1005253.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     rating: 4.5,
     review: 20,
     price: 500,
@@ -68,7 +68,7 @@ const destinationData = [
     country: "Indonesia",
     desc: "Wonder of the west coast & Kimberley",
     image:
-      "https://images.pexels.com/photos/9402787/pexels-photo-9402787.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/11849190/pexels-photo-11849190.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     rating: 4.5,
     review: 20,
     price: 500,
@@ -89,7 +89,7 @@ const destinationData = [
     country: "Indonesia",
     desc: "Wonder of the west coast & Kimberley",
     image:
-      "https://images.pexels.com/photos/9402787/pexels-photo-9402787.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/16070670/pexels-photo-16070670/free-photo-of-campo-santo-stefano-in-venice.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     rating: 4.5,
     review: 20,
     price: 500,
@@ -114,7 +114,7 @@ const destinationData = [
     country: "Indonesia",
     desc: "Wonder of the west coast & Kimberley",
     image:
-      "https://images.pexels.com/photos/9402787/pexels-photo-9402787.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/17896059/pexels-photo-17896059/free-photo-of-tourists-walking-on-town-square-in-kotor.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     rating: 4.5,
     review: 20,
     price: 500,
@@ -139,7 +139,7 @@ const destinationData = [
     country: "Indonesia",
     desc: "Wonder of the west coast & Kimberley",
     image:
-      "https://images.pexels.com/photos/9402787/pexels-photo-9402787.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/16907852/pexels-photo-16907852/free-photo-of-full-moon-seen-from-dubrovnik.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     rating: 4.5,
     review: 20,
     price: 500,
@@ -164,7 +164,7 @@ const destinationData = [
     country: "Indonesia",
     desc: "Wonder of the west coast & Kimberley",
     image:
-      "https://images.pexels.com/photos/9402787/pexels-photo-9402787.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/17330710/pexels-photo-17330710/free-photo-of-giant-pieces-of-glacier-on-beach-on-iceland.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     rating: 4.5,
     review: 20,
     price: 500,

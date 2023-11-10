@@ -5,6 +5,7 @@ import SubHero from "../../components/herosections/subHero/SubHero";
 import DestinationGalleryInfo from "../../components/pageComponents/destinationGalleryInfo/DestinationGalleryInfo";
 import TourDetails from "../../components/pageComponents/tourDetails/TourDetails";
 import TourOverView from "../../components/pageComponents/tourOverView/TourOverView";
+import FeaturedDestination from "../../components/pageComponents/featuredDestination/FeaturedDestination";
 
 const DestinationDetailsPage = () => {
   return (
@@ -21,6 +22,7 @@ const DestinationDetailsPage = () => {
       <TourDetails />
       <DestinationGalleryInfo />
       <TourOverView />
+      <FeaturedDestination />
     </Layout>
   );
 };
