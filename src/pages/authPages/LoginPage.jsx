@@ -106,7 +106,7 @@ const LoginPage = () => {
                 autoFocus
                 type="text"
                 required
-                placeholder="Email or Phone"
+                placeholder="Username"
                 value={loginInputs.username}
                 onChange={(e) => handleLoginInputs("username", e)}
               />
