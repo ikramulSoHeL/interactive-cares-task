@@ -10,7 +10,7 @@
 
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   background-color: #14161c;
-  z-index: 9;
+  z-index: var(--zindexNav);
 
   .navbarContainer {
     width: 87%;
