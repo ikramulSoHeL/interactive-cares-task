@@ -164,7 +164,7 @@ const destinationData = [
   },
   {
     id: 8,
-    name: "Paharpur",
+    name: "Barisal-Kuakata",
     country: "Indonesia",
     desc: "Wonder of the west coast & Kimberley",
     image:
