@@ -41,6 +41,10 @@
       color: white;
       text-align: center;
       letter-spacing: 2px;
+
+      @include portraitTablet {
+        font-size: 40px;
+      }
     }
 
     .subHero__subText {

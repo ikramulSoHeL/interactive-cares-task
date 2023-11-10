@@ -7,6 +7,10 @@
   background-size: cover;
   background-position: center;
 
+  @include largeMobile {
+    padding: 0 20px;
+  }
+
   .content {
     position: absolute;
     top: 50%;
@@ -20,8 +24,9 @@
     box-shadow: -1px 4px 28px 0px rgba(0, 0, 0, 0.75);
     transition: 0.3s ease-in-out;
 
-    @include mediumMobile {
-      width: 300px;
+    @include largeMobile {
+      width: 96%;
+      padding: 60px 20px;
       transition: 0.3s ease-in-out;
     }
 

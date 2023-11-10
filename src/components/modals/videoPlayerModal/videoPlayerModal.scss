@@ -25,6 +25,11 @@
   &:hover {
     color: red;
   }
+
+  @include smallDesktop {
+    top: 50px;
+    right: 20px;
+  }
 }
 
 .videoPlayer__modalContainer {
@@ -35,9 +40,8 @@
   z-index: 11;
 
   @include smallDesktop {
-    top: 200%;
+    top: 220%;
     width: 100%;
-    padding: 0 20px;
   }
 
   .videoPlayer__modalContent {
@@ -48,11 +52,10 @@
     gap: 20px;
     border-radius: 10px;
 
-    background-color: rgb(247, 247, 247);
-
     @include smallDesktop {
       width: 100%;
-      padding: 40px;
+      height: 250px;
+      padding: 20px;
     }
   }
 }
