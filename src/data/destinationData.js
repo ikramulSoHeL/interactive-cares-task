@@ -12,15 +12,15 @@ const destinationData = [
     availableDates: [
       {
         id: 1,
-        date: "2021-10-01 to 2021-10-10",
+        date: "1Jan to 10Jan 24",
       },
       {
         id: 2,
-        date: "2021-10-01 to 2021-10-10",
+        date: "10Jan to 20Jan 24",
       },
       {
         id: 3,
-        date: "2021-10-01 to 2021-10-10",
+        date: "20Jan to 30Jan 24",
       },
     ],
   },
@@ -37,7 +37,11 @@ const destinationData = [
     availableDates: [
       {
         id: 1,
-        date: "2021-10-01 to 2021-10-10",
+        date: "5Dec to 10Dec 23",
+      },
+      {
+        id: 2,
+        date: "10Dec to 15Dec 23",
       },
     ],
   },
@@ -54,11 +58,11 @@ const destinationData = [
     availableDates: [
       {
         id: 1,
-        date: "2021-10-01 to 2021-10-10",
+        date: "5Jan to 10Jan 24",
       },
       {
         id: 2,
-        date: "2021-10-01 to 2021-10-10",
+        date: "10Jan to 15Jan 24",
       },
     ],
   },
@@ -75,11 +79,11 @@ const destinationData = [
     availableDates: [
       {
         id: 1,
-        date: "2021-10-01 to 2021-10-10",
+        date: "12Feb to 20Feb 24",
       },
       {
         id: 2,
-        date: "2021-10-01 to 2021-10-10",
+        date: "20Feb to 28Feb 24",
       },
     ],
   },
@@ -96,15 +100,15 @@ const destinationData = [
     availableDates: [
       {
         id: 1,
-        date: "2021-10-01 to 2021-10-10",
+        date: "2May to 9May 24",
       },
       {
         id: 2,
-        date: "2021-10-01 to 2021-10-10",
+        date: "9May to 16May 24",
       },
       {
         id: 3,
-        date: "2021-10-01 to 2021-10-10",
+        date: "16May to 23May 24",
       },
     ],
   },
@@ -121,15 +125,15 @@ const destinationData = [
     availableDates: [
       {
         id: 1,
-        date: "2021-10-01 to 2021-10-10",
+        date: "23Nov to 30Nov 23",
       },
       {
         id: 2,
-        date: "2021-10-01 to 2021-10-10",
+        date: "30Nov to 7Dec 23",
       },
       {
         id: 3,
-        date: "2021-10-01 to 2021-10-10",
+        date: "7Dec to 14Dec 23",
       },
     ],
   },
@@ -146,15 +150,15 @@ const destinationData = [
     availableDates: [
       {
         id: 1,
-        date: "2021-10-01 to 2021-10-10",
+        date: "7Dec to 14Dec 23",
       },
       {
         id: 2,
-        date: "2021-10-01 to 2021-10-10",
+        date: "14Dec to 21Dec 23",
       },
       {
         id: 3,
-        date: "2021-10-01 to 2021-10-10",
+        date: "21Dec to 28Dec 23",
       },
     ],
   },
@@ -171,15 +175,15 @@ const destinationData = [
     availableDates: [
       {
         id: 1,
-        date: "2021-10-01 to 2021-10-10",
+        date: "1Jan to 10Jan 24",
       },
       {
         id: 2,
-        date: "2021-10-01 to 2021-10-10",
+        date: "10Jan to 20Jan 24",
       },
       {
         id: 3,
-        date: "2021-10-01 to 2021-10-10",
+        date: "20Jan to 30Jan 24",
       },
     ],
   },
