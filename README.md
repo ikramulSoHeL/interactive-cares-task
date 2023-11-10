@@ -1,3 +1,16 @@
+# This is a Tour management website Sample
+
+Initially, users can see the features. But if any user searches available tour schedule they have to search in
+the home page search section. After they select any available tour place they can see the scheduled dates and 
+the user can choose any preferred date for their plan.
+
+To book the tour users need to provide all information in the form.
+If the user is not logged in the information will be saved for future use after they log in.
+
+By providing all information the use can book a tour.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
