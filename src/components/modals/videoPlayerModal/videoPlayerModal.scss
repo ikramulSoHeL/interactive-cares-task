@@ -29,13 +29,13 @@
 
 .videoPlayer__modalContainer {
   position: absolute;
-  top: 50%;
+  top: 150%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 11;
 
   @include smallDesktop {
-    top: 80%;
+    top: 200%;
     width: 100%;
     padding: 0 20px;
   }

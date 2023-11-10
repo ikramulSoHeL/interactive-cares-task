@@ -4,10 +4,10 @@ import "./aboutPage.scss";
 // components
 import Layout from "../../components/layout/Layout";
 import SubHero from "../../components/herosections/subHero/SubHero";
-import AboutUs from "./aboutUs/AboutUs";
-import WhyUs from "./whyUs/WhyUs";
-import Team from "./team/Team";
-import Testimonials from "./testimonials/Testimonials";
+import AboutUs from "../../components/pageComponents/aboutUs/AboutUs";
+import WhyUs from "../../components/pageComponents/whyUs/WhyUs";
+import Team from "../../components/pageComponents/team/Team";
+import Testimonials from "../../components/pageComponents/testimonials/Testimonials";
 
 const AboutPage = () => {
   return (

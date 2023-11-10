@@ -1,7 +1,6 @@
 import { RiMoneyPoundBoxLine, RiFileList3Line } from "react-icons/ri";
-import { TbBrandBooking } from "react-icons/tb";
 import { FaRegHandPeace, FaRegLightbulb } from "react-icons/fa";
-import { BsPersonUp, BsPeople } from "react-icons/bs";
+import { BsPersonUp } from "react-icons/bs";
 import { BsFillPeopleFill } from "react-icons/bs";
 
 const whyUsData = [
@@ -19,25 +18,25 @@ const whyUsData = [
   },
   {
     id: 3,
-    icon: <FaRegLightbulb />,
+    icon: <RiFileList3Line />,
     title: "We are the best",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
   },
   {
     id: 4,
-    icon: <FaRegLightbulb />,
+    icon: <FaRegHandPeace />,
     title: "Free shipping",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
   },
   {
     id: 5,
-    icon: <FaRegLightbulb />,
+    icon: <BsPersonUp />,
     title: "We are the best",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
   },
   {
     id: 6,
-    icon: <FaRegLightbulb />,
+    icon: <BsFillPeopleFill />,
     title: "Free shipping",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
   },

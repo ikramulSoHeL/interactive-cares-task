@@ -2,7 +2,7 @@ import React from "react";
 import "./aboutUs.scss";
 
 // components
-import Wrapper from "../../../components/wrapper/Wrapper";
+import Wrapper from "../../wrapper/Wrapper";
 
 const AboutUs = () => {
   return (

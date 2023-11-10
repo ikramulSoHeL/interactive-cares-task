@@ -4,7 +4,7 @@
   width: 100%;
   display: grid;
   align-items: center;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr 1fr;
   gap: 40px;
   transition: all 0.3s ease-in-out;
 
@@ -64,24 +64,21 @@
   }
 
   .testimonials__details {
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 40px;
     padding: 30px;
 
     .testimonials__container {
-      .testimonials__card {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 20px;
+      width: 100%;
+      max-width: 500px;
+      display: flex;
 
-        .testimonials__cardText {
-          text-align: center;
-          font-size: 1.2rem;
-          letter-spacing: 1px;
-        }
+      padding-bottom: 40px;
+
+      @include smallDesktop {
+        max-width: 300px;
       }
     }
   }

@@ -1,12 +1,19 @@
 import React from "react";
 import "./testimonials.scss";
 
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/pagination";
+import { Autoplay, Pagination } from "swiper/modules";
+
 // components
-import Wrapper from "../../../components/wrapper/Wrapper";
-import SectionHeader from "../../../components/sectionHeader/SectionHeader";
+import Wrapper from "../../wrapper/Wrapper";
+import SectionHeader from "../../sectionHeader/SectionHeader";
+import TestimonialCard from "../../cards/testimonialCard/TestimonialCard";
 
 // static files
-import testimonialData from "./testimonialData";
+import testimonialData from "../../../data/testimonialData";
 
 const Testimonials = () => {
   return (
@@ -36,17 +43,24 @@ const Testimonials = () => {
             mainText="What Travellers Say"
           />
 
-          <div className="testimonials__container">
+          <Swiper
+            className="testimonials__container"
+            loop={true}
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: false,
+            }}
+            pagination={{
+              clickable: true,
+            }}
+            modules={[Autoplay, Pagination]}
+          >
             {testimonialData.map((testimonial) => (
-              <div className="testimonials__card" key={testimonial.id}>
-                <span>""</span>
-                <p className="testimonials__cardText">{testimonial?.review}</p>
-                <span className="testimonials__cardPosition">
-                  -By {testimonial.name}, {testimonial.position}
-                </span>
-              </div>
+              <SwiperSlide key={testimonial.id}>
+                <TestimonialCard testimonial={testimonial} />
+              </SwiperSlide>
             ))}
-          </div>
+          </Swiper>
         </div>
       </div>
     </Wrapper>

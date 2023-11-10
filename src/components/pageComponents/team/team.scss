@@ -1,0 +1,23 @@
+@import "../../../styles/foundations/mixins.scss";
+
+.team {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+  .teamContainer {
+    width: 100%;
+
+    padding-bottom: 40px;
+
+    .swiper-pagination {
+      position: absolute;
+      bottom: 0;
+      fill: orange;
+
+      .swiper-pagination-bullet-active {
+        background-color: orange;
+      }
+    }
+  }
+}

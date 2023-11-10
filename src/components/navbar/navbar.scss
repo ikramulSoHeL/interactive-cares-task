@@ -1,12 +1,16 @@
 @import "../../styles/foundations/mixins.scss";
 
 .navbar {
+  position: sticky;
+  top: 0;
   width: 100%;
   height: 60px;
   display: flex;
   justify-content: center;
 
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-color: #14161c;
+  z-index: 9;
 
   .navbarContainer {
     width: 87%;
@@ -14,19 +18,29 @@
     align-items: center;
     justify-content: space-between;
 
+    @include extraLargeTablet {
+      width: 95%;
+    }
+
     .navbar__logoMenu {
       display: flex;
       justify-content: center;
       align-items: center;
       gap: 80px;
 
+      @include extraLargeTablet {
+        gap: 50px;
+      }
+
       .navbar__logo {
         display: flex;
         gap: 10px;
 
         .navbar__logoText {
-          font-family: "Allan", serif;
+          font-family: "Dancing Script", cursive;
           font-size: 30px;
+          font-weight: 600;
+          color: orange;
         }
       }
 
@@ -35,7 +49,7 @@
         align-items: center;
         gap: 30px;
 
-        @include extraLargeTablet {
+        @include mediumTablet {
           display: none;
         }
 
@@ -43,7 +57,7 @@
           font-size: 20px;
           font-weight: 500;
           text-decoration: none;
-          color: var(--black);
+          color: white;
           cursor: pointer;
           transition: all 0.3s ease-in-out;
 
@@ -62,12 +76,14 @@
     .navbar__authSearch {
       display: flex;
       align-items: center;
+      justify-content: center;
       gap: 20px;
 
       .navbar__searchIcon {
         font-size: 20px;
         color: var(--black);
         transition: all 0.3s ease-in-out;
+        color: white;
         cursor: pointer;
 
         &:hover {
@@ -77,8 +93,11 @@
       }
 
       .navbar__auth {
+        position: relative;
         display: flex;
+
         gap: 5px;
+        cursor: pointer;
 
         &:hover {
           .navbar__auth--userIcon {
@@ -93,16 +112,106 @@
 
         .navbar__auth--userIcon {
           font-size: 17px;
-          color: var(--black);
+          color: white;
         }
 
         .navbar__auth--loginText {
           font-size: 17px;
           font-weight: 500;
           text-decoration: none;
+          color: white;
+        }
+
+        .navbar__auth__userMenu {
+          display: none;
+        }
+
+        .active__userMenu {
+          position: absolute;
+          top: 40px;
+          left: 0;
+
+          width: max-content;
+          height: max-content;
+          display: flex;
+          background-color: #14161c;
+
+          padding: 10px 20px;
+
+          span {
+            font-size: 15px;
+            font-weight: 500;
+            color: white;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+
+            &:hover {
+              color: orange;
+              transition: all 0.3s ease-in-out;
+            }
+          }
+        }
+      }
+
+      .mobile__menu {
+        display: none;
+        // position: relative;
+
+        @include mediumTablet {
+          display: block;
+          z-index: 99999999999999;
+        }
+
+        .mobile__menuIcon {
+          font-size: 20px;
           color: var(--black);
+          transition: all 0.3s ease-in-out;
+          color: white;
+          cursor: pointer;
+
+          &:hover {
+            color: orange;
+            transition: all 0.3s ease-in-out;
+          }
+        }
+
+        .mobile__menuContent {
+          position: absolute;
+          top: 60px;
+          right: 0;
+
+          height: 100vh;
+          width: 200px;
+          display: flex;
+
+          padding: 40px;
+          background-color: #14161c;
+
+          .mobile__menuList {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+
+            .navbar__links--item {
+              font-size: 20px;
+              font-weight: 500;
+              text-decoration: none;
+              color: white;
+              cursor: pointer;
+              transition: all 0.3s ease-in-out;
+
+              &:hover {
+                color: orange;
+                transition: all 0.3s ease-in-out;
+              }
+            }
+          }
         }
       }
     }
   }
+}
+
+.activeNav {
+  color: orange !important;
 }

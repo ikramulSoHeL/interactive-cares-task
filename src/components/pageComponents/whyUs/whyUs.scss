@@ -1,0 +1,48 @@
+@import "../../../styles/foundations/mixins.scss";
+
+.whyUs {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+  .whyUs__container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 40px;
+
+    .whyUs__card {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      padding: 20px;
+
+      border: 1px solid lightblue;
+      border-radius: 10px;
+      transition: all 0.3s ease-in-out;
+      cursor: pointer;
+
+      &:hover {
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+        border: 1px solid orange;
+        scale: 1.05;
+        transition: all 0.3s ease-in-out;
+      }
+
+      .whyUs__cardIcon {
+        font-size: 2rem;
+        color: orange;
+      }
+
+      .whyUs__cardTitle {
+        font-size: 22px;
+        font-weight: 600;
+      }
+
+      .whyUs__cardText {
+        font-size: 18px;
+        font-weight: 400;
+      }
+    }
+  }
+}
